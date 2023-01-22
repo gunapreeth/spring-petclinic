@@ -25,6 +25,9 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 class VetTests {
 
+	public VetTests() {
+	}
+
 	@Test
 	void testSerialization() {
 		Vet vet = new Vet();
